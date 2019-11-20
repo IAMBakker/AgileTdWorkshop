@@ -2,7 +2,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'SeleniumVM'
+  name: 'Hosted Ubuntu 1604'
 
 steps:
 - task: Maven@3
