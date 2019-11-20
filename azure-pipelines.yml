@@ -4,6 +4,7 @@ trigger:
 pool:
   name: 'Hosted Windows 2019 with VS2019'
 
+steps:
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
