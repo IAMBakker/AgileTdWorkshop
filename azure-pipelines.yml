@@ -2,13 +2,7 @@ trigger:
 - master
 
 pool:
-  name: 'Hosted Ubuntu 1604'
-
-steps:
-- bash: |
-    sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-    sudo sudo dpkg -i google-chrome-stable_current_amd64.deb
-
+  name: 'Hosted Windows 2019 with VS2019'
 
 - task: Maven@3
   inputs:
