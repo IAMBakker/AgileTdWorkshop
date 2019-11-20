@@ -16,8 +16,6 @@ public class DriverManager {
     public static void setupClass(){
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--no-sandbox");
-        options.addArguments("--headless");
         driver = new ChromeDriver();
     }
 
