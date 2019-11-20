@@ -5,6 +5,8 @@ pool:
   name: 'Hosted Ubuntu 1604'
 
 steps:
+- script: sudo apt-get install chromium-browser
+
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
